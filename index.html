@@ -1,0 +1,198 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medical Data Analysis Consulting | Andrew Gregory, MD</title>
+  <meta name="description" content="Medical data analysis consulting for researchers and medical scientists who need statistical analysis, data visualization, manuscript support, and study design guidance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" data-page-link="home">
+        <span class="brand-mark">AG</span>
+        <span class="brand-text">Andrew Gregory, MD</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="primary-menu">
+        <a href="#home" data-page-link="home" class="nav-link active">Home</a>
+        <a href="#about" data-page-link="about" class="nav-link">About Me</a>
+        <a href="#services" data-page-link="services" class="nav-link">Services</a>
+        <a href="#contact" data-page-link="contact" class="nav-link nav-cta">Let's connect!</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page active" id="home" data-page="home">
+      <div class="hero page-section reveal">
+        <div class="hero-copy">
+
+          <h1> Turn medical data into figures & tables quickly! </h1>
+
+          <p class="hero-lede">
+            Statistical Analyses, Data Visualization and Mansucript Preparation support from an MD with 20+ publications and 10+ years of data analysis experience 
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary-button" href="#contact" data-page-link="contact">Let's connect for a free call!</a>
+            <a class="button secondary-button" href="#services" data-page-link="services">Explore Services</a>
+          </div>
+
+          <div class="home-services-wrapper">
+            <article class="home-service-box">
+              <h3>Statistical Analysis</h3>
+              <img src="stats_analysis_p1.png" alt="Statistical Analysis Services" />
+            </article>
+            <article class="home-service-box">
+              <h3>Data Visualization</h3>
+              <img src="stats_analysis_p2.png" alt="Data Visualization Services" />
+            </article>
+            <article class="home-service-box">
+              <h3>Manuscript Preparation</h3>
+              <img src="stats_analysis_p3.png" alt="Manuscript Preparation Services" />
+            </article>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="about" data-page="about">
+      <section class="page-section about-layout reveal">
+        <div class="about-photo-frame">
+          <img
+          class="about-photo"
+          src="andrew-gregory-professional-photo.jpg"
+          alt="Andrew Gregory, MD"
+          />
+        </div>
+
+        <div class="about-content">
+          <p class="about-descriptor">
+            <u>Andrew Gregory, MD</u><br>
+            I am an incoming Internal Medicine resident with a strong passion for data science and medical research. I help researchers transform complex datasets into clear, publication-ready figures and tables efficiently and with great precision!</br>
+          </p>
+
+          <div class="credential-list" aria-label="Professional credentials">
+            <div><strong>Top 5% of MD class</strong></div>
+            <div><strong>20+ publications</strong></div>
+            <div><strong>25+ abstracts and posters</strong></div>
+            <div><strong>10+ years doing data analysis</strong></div>
+          </div>
+
+          <a class="button secondary-button publications-link" href="https://drive.google.com/file/d/1nEI_wPb0p47UzJZlt0vw_-I_I4bFU0T2/view?usp=sharing" target="_blank" rel="noopener noreferrer">My publications</a>
+        </div>
+      </section>
+    </section>
+
+    <section class="page" id="services" data-page="services">
+  <section class="page-section reveal">
+    <p class="eyebrow">Services</p>
+
+<div class="service-list">
+
+  <article class="service-item reveal">
+    <div class="service-number">1</div>
+    <div>
+      <h2>Statistical Analysis</h2>
+      <p>
+        Rigorous, publication-ready statistical analyses tailored to your study design, dataset structure, and research question. Methods range from foundational hypothesis testing to advanced machine learning–based modeling.
+      </p>
+    </div>
+  </article>
+
+  <article class="service-item reveal">
+    <div class="service-number">2</div>
+    <div>
+      <h2>Data Visualization</h2>
+      <p>
+        Clear, high-impact figures and tables designed for manuscripts, abstracts, and presentations. Transform complex data into visuals that communicate your findings quickly and effectively.
+      </p>
+    </div>
+  </article>
+
+  <article class="service-item reveal">
+    <div class="service-number">3</div>
+    <div>
+      <h2>Manuscript Preparation</h2>
+      <p>
+        Detailed review and refinement of abstracts, introductions, methods, results, and discussion sections to ensure clarity, accuracy, and a strong, cohesive scientific narrative.
+      </p>
+    </div>
+  </article>
+
+</div>
+  </section>
+</section>
+
+<section class="page" id="contact" data-page="contact">
+  <section class="page-section reveal">
+
+    <div class="contact-header">
+      <h1>Let's discuss your project!</h1>
+    </div>
+
+<form 
+  class="contact-form" 
+  id="contact-form"
+  action="https://api.web3forms.com/submit" 
+  method="POST"
+>
+
+  <!-- 🔑 THIS IS THE IMPORTANT PART (PUT IT RIGHT HERE) -->
+  <input type="hidden" name="access_key" value="319a9c3f-b3e2-40ab-a13f-ae2496d06cd6">
+
+  <!-- optional extras -->
+  <input type="hidden" name="subject" value="New Contact Request - Medical Data Consulting">
+  <input type="hidden" name="from_name" value="Medical Data Consulting Website">
+
+  <input type="checkbox" name="botcheck" style="display:none;">
+
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" autocomplete="name" required />
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" autocomplete="email" required />
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <button class="button primary-button" type="submit">
+    Send Message
+  </button>
+
+  <!-- NEW EMAIL BOX -->
+<div class="contact-email-box">
+  <strong>Email:</strong>
+  <a href="mailto:andrewgregory368@gmail.com">
+    andrewgregory368@gmail.com
+  </a>
+</div>
+
+  <p class="form-note" id="form-note" aria-live="polite"></p>
+</form>
+
+  </section>
+</section>
+
+<p class="form-note" id="form-note" aria-live="polite"></p>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> MD Data Analytics </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

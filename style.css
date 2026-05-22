@@ -302,11 +302,6 @@ p {
   margin: 0; /* keeps spacing controlled by hero-copy gap */
 }
 
-.hero-lede,
-.hero-cred {
-  margin: 0;
-}
-
 .hero-panel {
   padding: 22px;
   background: linear-gradient(

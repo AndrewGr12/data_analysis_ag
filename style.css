@@ -293,7 +293,10 @@ p {
 
 .hero-lede {
   font-size: 1.30rem;
-  margin: -10px; /* removes competing spacing */
+  margin-top: -10px;   /* reduces H1 → paragraph spacing only */
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 .hero-actions {

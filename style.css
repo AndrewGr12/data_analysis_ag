@@ -293,7 +293,7 @@ p {
 
 .hero-lede {
   font-size: 1.30rem;
-  margin: 0; /* removes competing spacing */
+  margin: -10px; /* removes competing spacing */
 }
 
 .hero-actions {

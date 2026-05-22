@@ -274,31 +274,32 @@ p {
   min-height: calc(100svh - 68px);
   place-items: center;
   text-align: center;
-  padding: -10px 20px;
+  padding: 0 20px; /* negative padding removed */
 }
 
 .hero-copy {
   display: flex;
   flex-direction: column;
-  gap: 14px; /* adjust this as your global spacing control */
+  gap: 32px; /* single global spacing rhythm */
   text-align: left;
   max-width: 1000px;
 }
 
 .hero-copy h1 {
   margin-top: -50px;
-  margin-bottom: 20px; /* optional tighter control */
+  margin-bottom: 0;
   font-size: 32px;
 }
 
 .hero-lede {
   font-size: 1.30rem;
-  margin-top: 6px;
+  margin: 0; /* removes competing spacing */
 }
 
 .hero-actions {
   display: grid;
   gap: 12px;
+  margin: 0; /* keeps spacing controlled by hero-copy gap */
 }
 
 .hero-lede,
@@ -308,7 +309,11 @@ p {
 
 .hero-panel {
   padding: 22px;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(75, 182, 167, 0.08));
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(75, 182, 167, 0.08)
+  );
   border: 1px solid var(--line);
 }
 
@@ -413,7 +418,7 @@ p {
    ================================ */
 
 .home-services-wrapper {
-  margin-top: 20px;
+  margin-top: 0;
   display: grid;
   gap: 16px;
   padding: 20px;

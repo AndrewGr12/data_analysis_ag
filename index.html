@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Medical Data Analysis Consulting | Andrew Gregory, MD</title>
-  <meta name="description" content="Medical research data analysis and publication-ready figures for researchers and medical students." />
+  <title>Medical Research Analytics | Statistical Consulting for Medical Research</title>
+  <meta name="description" content="Statistical consulting for medical research, including study design, data analysis, and publication-ready figures." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
@@ -15,8 +15,11 @@
   <header class="site-header">
     <nav class="nav-shell" aria-label="Primary navigation">
       <a class="brand" href="#home" data-page-link="home">
-        <span class="brand-mark">AG</span>
-        <span class="brand-text">Andrew Gregory, MD</span>
+        <img class="brand-symbol" src="medical-research-analytics-mark.svg" alt="" />
+        <span class="brand-copy">
+          <strong>Medical Research Analytics</strong>
+          <small>Statistical consulting for medical research</small>
+        </span>
       </a>
 
       <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
@@ -29,7 +32,7 @@
         <a href="#home" data-page-link="home" class="nav-link active">Home</a>
         <a href="#about" data-page-link="about" class="nav-link">About Me</a>
         <a href="#services" data-page-link="services" class="nav-link">Services</a>
-        <a href="#contact" data-page-link="contact" class="nav-link nav-cta">Let's connect!</a>
+        <a href="#contact" data-page-link="contact" class="nav-link nav-cta">Book a Free Consultation</a>
       </div>
     </nav>
   </header>
@@ -45,22 +48,22 @@
             Statistical analysis and publication-ready figures for medical researchers and students, backed by 10+ years of data analysis experience and 20+ publications. </p>
 
           <div class="hero-actions">
-            <a class="button primary-button" href="#contact" data-page-link="contact">Discuss your project</a>
+            <a class="button primary-button" href="#contact" data-page-link="contact">Book a Free Consultation</a>
             <a class="button secondary-button" href="#services" data-page-link="services">Explore Services</a>
           </div>
 
           <div class="home-services-wrapper">
             <article class="home-service-box">
+              <h3>Data Cleaning and Preparation</h3>
+              <img src="stats_analysis_p2.png" alt="Data Cleaning and Preparation Services" />
+            </article>
+            <article class="home-service-box">
               <h3>Statistical Analysis</h3>
               <img src="stats_analysis_p1.png" alt="Statistical Analysis Services" />
             </article>
             <article class="home-service-box">
-              <h3>Data Visualization</h3>
-              <img src="stats_analysis_p2.png" alt="Data Visualization Services" />
-            </article>
-            <article class="home-service-box">
-              <h3>Publication-Ready Figures</h3>
-              <img src="stats_analysis_p3.png" alt="Publication-Ready Figures Services" />
+              <h3>Publication-Ready Tables and Figures</h3>
+              <img src="stats_analysis_p3.png" alt="Publication-Ready Tables and Figures Services" />
             </article>
           </div>
           
@@ -81,7 +84,7 @@
         <div class="about-content">
           <p class="about-descriptor">
             <u>Andrew Gregory, MD</u><br>
-            I am an Internal Medicine resident with a passion for data science and medical research. I help medical researchers and students analyze data and present results with clear, publication-ready figures.</br>
+            I am an internal medicine resident who helps medical researchers and students turn complex data into clear, reliable results. From preparing datasets to statistical analysis and publication-ready tables and figures, I provide practical support tailored to each project.</br>
           </p>
 
           <div class="credential-list" aria-label="Professional credentials">
@@ -104,32 +107,29 @@
 
   <article class="service-item reveal">
     <div class="service-number">1</div>
-    <div>
-      <h2>Statistical Analysis</h2>
-      <p>
-        Thoughtful statistical analysis tailored to your research question and dataset, with clear explanations of the methods and results.
-      </p>
+    <div class="service-copy">
+      <h2>Data Cleaning and Preparation</h2>
+      <p>Organize, validate, and prepare your dataset for analysis. Identify missing values, inconsistencies, and data issues before they affect your results.</p>
     </div>
+    <img class="service-illustration" src="service-data-preparation.svg" alt="" aria-hidden="true" />
   </article>
 
   <article class="service-item reveal">
     <div class="service-number">2</div>
-    <div>
-      <h2>Data Visualization</h2>
-      <p>
-        Clear, high-impact figures and tables designed for manuscripts, abstracts, and presentations. Transform complex data into visuals that communicate your findings quickly and effectively.
-      </p>
+    <div class="service-copy">
+      <h2>Statistical Analysis</h2>
+      <p>Choose and apply methods suited to your research question and study design. Get clear explanations of the analysis, results, and limitations.</p>
     </div>
+    <img class="service-illustration" src="service-statistical-analysis.svg" alt="" aria-hidden="true" />
   </article>
 
   <article class="service-item reveal">
     <div class="service-number">3</div>
-    <div>
-      <h2>Publication-Ready Figures</h2>
-      <p>
-        Clear, carefully formatted figures that make research findings easier to understand in manuscripts, abstracts, and presentations.
-      </p>
+    <div class="service-copy">
+      <h2>Publication-Ready Tables and Figures</h2>
+      <p>Turn your results into polished tables and figures formatted for manuscripts, abstracts, and presentations.</p>
     </div>
+    <img class="service-illustration" src="service-publication-figures.svg" alt="" aria-hidden="true" />
   </article>
 
 </div>
@@ -190,7 +190,7 @@
 
 
   <footer class="site-footer">
-    <p><span id="year"></span> Andrew Gregory, MD </p>
+    <p>© <span id="year"></span> Medical Research Analytics</p>
   </footer>
 
   <script src="main.js"></script>
